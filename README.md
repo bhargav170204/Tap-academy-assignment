@@ -1,8 +1,8 @@
 #Developer Information
 
-Name: Kamati Bhargav
-College: Mohan Babu University
-Contact: 9347723417
+- Name: Kamati Bhargav.
+- College: Mohan Babu University.
+- Contact: 9347723417.
 
 # Employee Attendance System
 
