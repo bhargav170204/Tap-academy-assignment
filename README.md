@@ -1,3 +1,9 @@
+#Developer Information
+
+Name: Kamati Bhargav
+College: Mohan Babu University
+Contact: 9347723417
+
 # Employee Attendance System
 
 A production-ready full-stack web application for managing employee attendance tracking with role-based access control (Employee and Manager roles). Built with modern design patterns including glassmorphism UI and dark theme aesthetics.
