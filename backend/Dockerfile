@@ -3,8 +3,9 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm ci
 COPY . .
+RUN chmod -R +x ./node_modules/.bin
 RUN apk add --no-cache python3 make g++ \
-	&& npm rebuild bcrypt --build-from-source
+  && npm rebuild bcrypt --build-from-source
 RUN chmod +x ./node_modules/.bin/tsc
 RUN npm run build
 EXPOSE 4000
