@@ -1,0 +1,20 @@
+After completing the setup steps and starting both the frontend and backend servers, the application becomes fully functional.
+The system offers two types of users: Employee and Manager, each with dedicated features.
+
+Employee Capabilities
+
+Log in using provided credentials
+
+Mark daily attendance (once per day)
+
+View personal profile information
+
+Manager Capabilities
+
+Log in using manager credentials
+
+View attendance records of all employees
+
+Monitor daily activity and attendance status
+
+All operations are backed by secure JWT authentication, clean API architecture, and responsive UI components.
