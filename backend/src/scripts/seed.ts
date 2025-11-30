@@ -3,8 +3,8 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import bcrypt from 'bcrypt';
 import dayjs from 'dayjs';
-import { User } from '../src/models/User.model';
-import { Attendance } from '../src/models/Attendance.model';
+import { User } from '../models/User.model';
+import { Attendance } from '../models/Attendance.model';
 
 dotenv.config();
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/attendance';
